@@ -2,4 +2,32 @@
 
 /* 回答はここに書いてね */
 
-/* 回答はここに書いてね */
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.parent {
+  background-color:#eff3f4 ;
+  width: 940px;
+  padding: 20px;
+}
+
+.text-box {
+  background-color:#3274ae;
+  padding: 20px;
+  width: 230px;
+  float: left;
+  margin-left: 20px;
+}
+
+.text {
+  background-color:#eaf4ff ;
+  font-size: 16px;
+  line-height: 16px;
+  border: 10px solid#022336;
+  padding: 20px;
+}
+
+/* 回はここに書いてね */
