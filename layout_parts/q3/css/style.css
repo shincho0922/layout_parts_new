@@ -2,4 +2,37 @@
 
 /* 回答はここに書いてね */
 
+/* テーブル全体 */
+.parent {
+  table-layout: auto;
+  width: 100%; 
+}
+/* テーブル全体 */
+
+tr:nth-child(3) {
+  background-color: #ecf1f2;
+}
+
+tr:nth-child(5) {
+  background-color: #ecf1f2;
+}
+
+tr th {
+  border: solid 1px #dedede;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 10px;
+}
+
+tr:last-child {
+  border-top: dashed #000 2px;
+}
+
+.blue-zone{
+  background-color: #2244aa;
+  color: white;
+  font-size: 18px;
+  line-height: 26px;
+}
+
 /* 回答はここに書いてね */
