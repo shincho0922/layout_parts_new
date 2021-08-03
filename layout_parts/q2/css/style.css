@@ -2,4 +2,36 @@
 
 /* 回答はここに書いてね */
 
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.parent {
+  margin: 0 auto;
+  background-color: #eff3f4;
+  padding: 20px;
+  width: 900px;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+/* 風船の画像 */
+.balloon {
+  float: left;
+  margin:0 20px 10px 0 ;
+}
+/* 風船の画像 */
+
+
+/* 灯りの画像 */
+.light {
+  float: right;
+  margin:0 0 10px 20px;
+}
+/* 灯りの画像 */
+
+
+
 /* 回答はここに書いてね */
