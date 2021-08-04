@@ -2,6 +2,17 @@
 
 /* 回答はここに書いてね */
 
+.text-align {
+  text-align: center;
+}
+
+.text-align-text {
+  width: 90px;
+  background-color: #e6f2ff;
+  padding: 10px 0;
+  display: inline-block;
+}
+
 .margin {
   margin: 0 auto;
   width: 90px;
