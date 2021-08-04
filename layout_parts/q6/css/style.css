@@ -2,10 +2,6 @@
 
 /* 回答はここに書いてね */
 
-.text-align {
-
-}
-
 .margin {
   margin: 0 auto;
   width: 90px;
@@ -18,14 +14,14 @@
   display: table;
 }
 
-.table-parent{
+.table-parent {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
 
 .table-child,
-.flex-child{
+.flex-child {
   padding: 10px;
   background-color: #fff;
   display: inline-block;
@@ -37,7 +33,7 @@
   align-items: center;
 }
 
-.position-parent{
+.position-parent {
   position: relative;
 }
 

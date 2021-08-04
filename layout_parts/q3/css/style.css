@@ -4,35 +4,46 @@
 
 /* テーブル全体 */
 .parent {
-  table-layout: auto;
+  table-layout: fixed;
   width: 100%; 
 }
 /* テーブル全体 */
 
-tr:nth-child(3) {
+/* グレーの列 */
+tr:nth-child(4) {
   background-color: #ecf1f2;
 }
 
-tr:nth-child(5) {
+tr:nth-child(2) {
   background-color: #ecf1f2;
 }
+/* グレーの列 */
 
-tr th {
-  border: solid 1px #dedede;
-  font-size: 16px;
-  line-height: 22px;
-  padding: 10px;
-}
-
-tr:last-child {
-  border-top: dashed #000 2px;
-}
-
-.blue-zone{
+/* 青い部分 */
+.parent > thead > tr > th,
+.parent > tbody > tr > td:first-child {
   background-color: #2244aa;
-  color: white;
+  color: #fff;
   font-size: 18px;
   line-height: 26px;
+}
+/* 青い部分 */
+
+.parent > tbody > tr > td {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.parent > thead > tr > th,
+.parent > tbody > tr > td {
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+  border: solid #dedede 1px;
+}
+
+.parent > tbody > tr:last-child:not(thead tr) {
+  border-top: dashed #000 2px;
 }
 
 /* 回答はここに書いてね */

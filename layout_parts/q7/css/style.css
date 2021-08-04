@@ -2,4 +2,101 @@
 
 /* 回答はここに書いてね */
 
+/* floatの横並び */
+.float-parent::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.float-child {
+  width: 225px;
+  float: left;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.float-child:last-child {
+  margin-left: 50px;
+}
+/* floatの横並び */
+
+/* tableの横並び */
+
+.table-parent {
+  display: table;
+}
+
+.table-child {
+  display: table-cell;
+  width: 225px;
+  vertical-align: middle;
+  padding-left: 50px;
+}
+
+.table-child:first-child {
+  padding-left: 0px;
+}
+
+/* tableの横並び */
+
+/* inline-blockの横並び */
+
+.inline-parent {
+  font-size: 0px;
+}
+
+.inline {
+  width: 225px;
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.inline:first-child {
+  margin-right: 50px;
+}
+
+/* inline-blockの横並び */
+
+/* flexでの横並び */
+
+.flex-parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.flex-child {
+  width: 225px;
+  box-sizing: border-box;
+}
+
+/* flexでの横並び */
+
+/* inline-blockとmarginでの横並び */
+
+.inline-block-parent {
+  font-size: 0px;
+}
+
+.inline-block{
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 16px;
+  vertical-align: top;
+}
+
+.fixed {
+  width: 300px;
+}
+
+.variable {
+  width: 100%;
+  padding-left: 350px;
+  margin-left: -300px;
+}
+/* inline-blockとmarginでの横並び */
+
 /* 回答はここに書いてね */

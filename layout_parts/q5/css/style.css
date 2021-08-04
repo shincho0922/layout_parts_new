@@ -11,7 +11,7 @@
 }
 
 /* 四角の共通クラス */
-.blok{
+.blok {
   height: 100px;
   width: 100px;
   font-weight: bold;
@@ -60,7 +60,6 @@ z-index: 1;
   left: 200px;
   z-index: 5;
 }
-
 
 .number-6 {
   background-color: #fffee4;

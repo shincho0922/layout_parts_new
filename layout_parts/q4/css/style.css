@@ -13,11 +13,11 @@
   width: 100%;
 }
 
-.parent:first-child{
+.parent:first-child {
   margin-top: 0;
 }
 
-.child{
+.child {
   display: table-cell;
   padding: 20px 0;
   text-align: center;
@@ -30,7 +30,6 @@
 
 .pink {
   background-color: #e0abd9;
-  /* width: calc(100vw - 200px); */
 }
 
 .blue {
@@ -40,12 +39,10 @@
 
 .yellow {
   background-color:#e5d32e ;
-  /* width: calc((100vw - 500px) / 2); */
 }
 
 .red {
   background-color: #ec8f9a;
-  /* width: calc((100vw - 500px) / 2); */
 }
 
 .green {

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
     <title>基本レイアウト・パーツ</title>
     <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout_parts_new/assets/css/reset.css">
@@ -21,59 +21,64 @@
         <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
         <div class="q3">
           <table class="parent">
-            <tr class="blue-zone">
-              <th>日付</th>
-              <th>朝ごはん</th>
-              <th>昼ごはん</th>
-              <th>おやつ</th>
-              <th>夜ご飯</th>
-              <th>夜食</th>
-            </tr>
+            <thead>
+              <tr>
+                <th>日付</th>
+                <th>朝ごはん</th>
+                <th>昼ごはん</th>
+                <th>おやつ</th>
+                <th>夜ご飯</th>
+                <th>夜食</th>
+              </tr>
+            </thead>
 
-            <tr>
-              <th class="blue-zone">2016/04/01</th>
-              <th>食パン</th>
-              <th>チャーハン</th>
-              <th>杏仁豆腐</th>
-              <th>舞茸丼</th>
-              <th>いちご</th>
-            </tr>
-
-            <tr>
-              <th class="blue-zone">2016/04/02</th>
-              <th>なし</th>
-              <th>ケバブ丼</th>
-              <th>ゼリー</th>
-              <th>唐揚げ定食</th>
-              <th>いちご</th>
-            </tr>
-
-            <tr>
-              <th class="blue-zone">016/04/03</th>
-              <th>納豆ご飯</th>
-              <th>まぐろ定食</th>
-              <th>チョコパン</th>
-              <th>餃子定食</th>
-              <th>チョコ</th>
-            </tr>
-
-            <tr>
-              <th class="blue-zone">016/04/04</th>
-              <th>食パン</th>
-              <th>牛丼</th>
-              <th>アイス</th>
-              <th>豚丼</th>
-              <th>スムージー</th>
-            </tr>
-
-            <tr>
-              <th class="blue-zone">合計カロリー</th>
-              <th>10000kcal</th>
-              <th>12000kcal</th>
-              <th>3000kcal</th>
-              <th>30000kcal</th>
-              <th>1000kcal</th>
-            </tr>
+            <tbody>
+              <tr>
+                <td>2016/04/01</td>
+                <td>食パン</td>
+                <td>チャーハン</td>
+                <td>杏仁豆腐</td>
+                <td>舞茸丼</td>
+                <td>いちご</td>
+              </tr>
+  
+              <tr>
+                <td>2016/04/02</td>
+                <td>なし</td>
+                <td>ケバブ丼</td>
+                <td>ゼリー</td>
+                <td>唐揚げ定食</td>
+                <td>いちご</td>
+              </tr>
+  
+              <tr>
+                <td>2016/04/03</td>
+                <td>納豆ご飯</td>
+                <td>まぐろ定食</td>
+                <td>チョコパン</td>
+                <td>餃子定食</td>
+                <td>チョコ</td>
+              </tr>
+  
+              <tr>
+                <td>2016/04/04</td>
+                <td>食パン</td>
+                <td>牛丼</td>
+                <td>アイス</td>
+                <td>豚丼</td>
+                <td>スムージー</td>
+              </tr>
+  
+              <tr>
+                <td>合計カロリー</td>
+                <td>10000kcal</td>
+                <td>12000kcal</td>
+                <td>3000kcal</td>
+                <td>30000kcal</td>
+                <td>1000kcal</td>
+              </tr>
+            </tbody>
+            
           </table>
         </div>
         <!-- 回答はクラスq3の要素の中に書いてね -->
