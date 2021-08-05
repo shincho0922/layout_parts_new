@@ -5,7 +5,7 @@
 .car-parent {
   margin: 0 auto;
   position: relative;
-  /* 画像の大きさを指定することでそれ以外のはみ出た部分を隠している */
+  /* ↓大きさを指定することでそれ以外のはみ出た部分を隠している */
   overflow: hidden;
   width: 500px;
   height: 333px;
@@ -30,15 +30,19 @@
   color: #fff;
 }
 
-/* hover後 */
-.car-parent:hover .car-image {
-  transform: scale(1.5);
+.hidden-box,
+.car-image {
   transition:0.5s all;
 }
-/* 終わりに適応されていないのはなんで？ */
+
+/* hover後 */
+
+.car-parent:hover .car-image {
+  transform: scale(1.5);
+}
+
 .car-parent:hover .hidden-box {
   bottom: 0px;
-  transition:0.5s all;
 }
 /* hover後 */
 

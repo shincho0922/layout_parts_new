@@ -3,7 +3,7 @@
 /* 回答はここに書いてね */
 
 /* floatの横並び */
-.float-parent::after {
+.clearfix::after {
   display: block;
   content: "";
   clear: both;
@@ -31,11 +31,10 @@
   display: table-cell;
   width: 225px;
   vertical-align: middle;
-  padding-left: 50px;
 }
 
-.table-child:first-child {
-  padding-left: 0px;
+.table-child:last-child {
+  padding-left: 50px;
 }
 
 /* tableの横並び */
@@ -54,8 +53,8 @@
   vertical-align: middle;
 }
 
-.inline:first-child {
-  margin-right: 50px;
+.inline:last-child {
+  margin-left: 50px;
 }
 
 /* inline-blockの横並び */
@@ -86,9 +85,6 @@
   box-sizing: border-box;
   font-size: 16px;
   vertical-align: top;
-}
-
-.fixed {
   width: 300px;
 }
 
