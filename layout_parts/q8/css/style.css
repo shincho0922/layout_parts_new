@@ -51,6 +51,7 @@
   border-radius: 50%;
   animation: load 1.1s infinite linear;
   /* アニメイションって他にはどんな使い方をしますか？ */
+  /* トランジションを使っても作れるの？ */
 }
 
 /* ここも質問 */

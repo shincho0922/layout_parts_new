@@ -2,4 +2,36 @@
 
 /* 回答はここに書いてね */
 
+.parent {
+  padding: 20px;
+  width: 500px;
+  border: solid 5px #222;
+  border-radius: 30px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.text::after,
+.text::before {
+  content: "";
+  position: absolute;
+  left: 30px;
+  border: 20px solid transparent;
+}
+
+.text::before{
+  bottom: -45px;
+  border-top: 20px solid #222;
+}
+
+.text::after{
+  bottom: -38px;
+  border-top: 20px solid #fff;
+}
+
 /* 回答はここに書いてね */
